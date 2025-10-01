@@ -13,17 +13,20 @@ app.get("/convert", (req, res) => {
   const { value, type } = req.query;
 
   if (!value || !type) {
-    return res.status(400).json({ error: "Please provide value and type" });
+    return res.status(400).json({ 
+      error: "Please provide value and type" });
   }
 
   const numValue = parseFloat(value);
   if (isNaN(numValue)) {
-    return res.status(400).json({ error: "Value must be a number" });
+    return res.status(400).json({ 
+      error: "Value must be a number" });
   }
 
   const converterFn = converters[type];
   if (!converterFn) {
-    return res.status(400).json({ error: "Invalid conversion type" });
+    return res.status(400).json({
+       error: "Invalid conversion type" });
   }
 
   const result = converterFn(numValue);
