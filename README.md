@@ -9,3 +9,7 @@ A simple node.js project that converts between different units (lenght,weight,di
 - User-friendly web interface for input and results.
  ### Installation
 
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/teamname/unit-converter.git
+
