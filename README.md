@@ -9,6 +9,32 @@ A simple node.js project that converts between different units (lenght,weight,di
  - Database 
 4. light weight and fast.
 
+## project structure
+unit-converter/
+│── node_modules/        # Installed dependencies
+│── README.md            # Project documentation
+│── alp2.jpg             # Project image ( used in frontend)
+│── frontend.js          # Handles frontend logic (interaction with UI)
+│── group6formula.js     # Contains conversion formulas
+│── index.html           # Main frontend page
+│── ourconverters.js     # Main converter logic
+│── package.json         # Project metadata and dependencies
+│── package-lock.json    # Dependency lock file
+│── style.css            # Styling for frontend
+ 
+ ## 📑 Codebase Documentation
+
+index.html → Frontend UI (dropdowns, input, result fields).
+
+style.css → Provides styling.
+
+frontend.js → Connects the frontend with conversion logic.
+
+group6formula.js → Contains conversion formulas (e.g., km → mi).
+
+ourconverters.js → Organizes and exports conversion functions.
+
+package.json → Defines project name, version, dependencies, and scripts.
 
 
 ## Installation 
