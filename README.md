@@ -44,18 +44,18 @@ git push origin feature-name
  
 1. Afolayan Boluwatife 
 2.Daniel Echendu 
- 3. Chukwuejekwu Joy
+3. Chukwuejekwu Joy
 - They  worked on;
 Groupformula.js,
 Ourconverter.js,
 Package-lock.js,
 Package.json.
 
-3.David Joseph 
-4. Chukwuebuka Uche 
+4.David Joseph 
+5. Chukwuebuka Uche 
 - They both worked on;
 index.html
 
  
-5. Uche Emerald;
+6.Uche Emerald;
 ReadMe file
