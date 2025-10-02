@@ -7,5 +7,5 @@ A simple node.js project that converts between different units (lenght,weight,di
 - convert **time** (hours,minutes,seconds)  
 - convert **temperature**_(celsuis,farenheit)
 - User-friendly web interface for input and results.
-
+ ### Installation
 
