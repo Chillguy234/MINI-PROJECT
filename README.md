@@ -1,5 +1,5 @@
 # Unit Converter
-A simple node.js project that converts between different units (lenght,weight,distance,temperature etc). it allows users to easily select the unit of conversion  or input values without hassle. 
+A simple node.js project that converts between different units (lenght,weight,distance,temperature etc). It allows users to easily select the unit of conversion  or input values without hassle. 
 ## Features
 - Convert between multiple units of length,weight, temperature, distance etc.
 - User-friendly web interface for input and results.
