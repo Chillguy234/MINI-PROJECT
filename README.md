@@ -1,10 +1,13 @@
 # Unit Converter
 A simple node.js project that converts between different units (lenght,weight,distance,temperature etc). It allows users to easily select the unit of conversion  or input values without hassle. 
 ## Features
-- Convert between multiple units of length,weight, temperature, distance etc.
-- User-friendly web interface for input and results.
- - Built with Nodejs,HTML and CSS.
-- light weight and fast.
+1. Convert between multiple units of length,weight, temperature, distance etc.
+2. User-friendly web interface for input and results.
+ 3. Techstack
+- CSS and HTML (for frontend)
+- Node js and JavaScript ( backend)
+ - Database 
+4. light weight and fast.
 
 
 
@@ -37,4 +40,12 @@ git push origin feature-name
 - Click **compare&pull** request.
 - Submit your changes for review.
 
-
+ #### Group 6 members that collaborated for the project;
+ ##### Backend coding 
+- Afolayan Boluwatife 
+- Daniel Echendu 
+##### Frontend coding and planning 
+- David Joseph 
+- Chukwuebuka Uche 
+  ##### Reporting and creating Readme file 
+- Uche Emerald
