@@ -60,9 +60,10 @@ Package.json.
  5.  Chukwuebuka Uche 
 
  - They both worked on;
-index.html
+index.html and style.css
 
  
  6. Uche Emerald;
 
   - ReadMe file
+
