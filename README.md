@@ -8,7 +8,7 @@ A simple node.js project that converts between different units (lenght,weight,di
 
 
 
-##Installation 
+## Installation 
 #### For end users 
 👉 [Click here to use the Unit Converter](https://your-deployed-link.com)
 
@@ -23,7 +23,7 @@ That’s it! Just click the link above and start converting.
 2. Open the folder.
 3. Locate and open **index.html**
 
-##Contribution for developers
+## Contribution for developers
  We welcome contributions from developers.To ensure this we have provided a safe step by step process to create an avenue for contribution. 
  1. Fork the repository
  2. Create your feature 
