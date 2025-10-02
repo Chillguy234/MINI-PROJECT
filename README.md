@@ -55,13 +55,14 @@ Package-lock.js,
 Package.json.
 
 
-4.David Joseph 
+ 4. David Joseph 
 
-5. Chukwuebuka Uche 
+ 5.  Chukwuebuka Uche 
 
-- They both worked on;
+ - They both worked on;
 index.html
 
  
 6.Uche Emerald;
+
 ReadMe file
