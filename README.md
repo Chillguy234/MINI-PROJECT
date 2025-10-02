@@ -46,10 +46,10 @@ git push origin feature-name
 2.Daniel Echendu 
  3. Chukwuejekwu Joy
 - They  worked on;
-Groupformula.js
-Ourconverter.js
-Package-lock.js
-Package.json
+Groupformula.js,
+Ourconverter.js,
+Package-lock.js,
+Package.json.
 
 3.David Joseph 
 4. Chukwuebuka Uche 
