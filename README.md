@@ -27,7 +27,7 @@ That’s it! Just click the link above and start converting.
  We welcome contributions from developers.To ensure this we have provided a safe step by step process to create an avenue for contribution. 
  1. Fork the repository
  2. Create your feature 
-branch git checkout -b feature-name
+git checkout -b feature-name
 3. Commit your changes 
 git commit -m "Add feature"
 4. Push your  branch to your fork
