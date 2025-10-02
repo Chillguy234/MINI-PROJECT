@@ -42,18 +42,20 @@ git push origin feature-name
 
  #### Group 6 members that collaborated for the project;
  
-- Afolayan Boluwatife 
-- Daniel Echendu 
- They both worked on;
+1. Afolayan Boluwatife 
+2.Daniel Echendu 
+ 3. Chukwuejekwu Joy
+- They  worked on;
 Groupformula.js
 Ourconverter.js
 Package-lock.js
 Package.json
 
-- David Joseph 
-- Chukwuebuka Uche 
-They both worked on;index.html
+3.David Joseph 
+4. Chukwuebuka Uche 
+- They both worked on;
+index.html
 
  
-- Uche Emerald
+5. Uche Emerald
 ReadMe file
