@@ -22,7 +22,7 @@ That’s it! Just click the link above and start converting.
  📦 Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/team-username/unit-converter.git
+   https://github.com/Chillguy234/MINI-PROJECT.git
 2. Open the folder.
 3. Locate and open **index.html**
 
@@ -41,11 +41,19 @@ git push origin feature-name
 - Submit your changes for review.
 
  #### Group 6 members that collaborated for the project;
- ##### Backend coding 
+ 
 - Afolayan Boluwatife 
 - Daniel Echendu 
-##### Frontend coding and planning 
+ They both worked on;
+Groupformula.js
+Ourconverter.js
+Package-lock.js
+Package.json
+
 - David Joseph 
 - Chukwuebuka Uche 
-  ##### Reporting and creating Readme file 
+They both worked on;index.html
+
+ 
 - Uche Emerald
+ReadMe file
