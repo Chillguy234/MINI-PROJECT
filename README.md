@@ -13,16 +13,10 @@ A simple node.js project that converts between different units (lenght,weight,di
 
 
 ### Installation for end users 
-# 🌐 Unit Converter
-
-
-
-## 🚀 For End Users
 👉 [Click here to use the Unit Converter](https://your-deployed-link.com)
 
-That’s it! Just click the link above and start converting. No setup or coding required. 🎉  
+That’s it! Just click the link above and start converting.
 
----
 
 ## 🛠️ For Developers
 
@@ -36,8 +30,4 @@ That’s it! Just click the link above and start converting. No setup or coding 
 
 
 
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/teamname/unit-converter.git
 
