@@ -9,7 +9,7 @@ A simple node.js project that converts between different units (lenght,weight,di
  - Database 
 4. light weight and fast.
 
-## project structure
+## Project structure
 unit-converter/
 │── node_modules/        # Installed dependencies
 
@@ -46,7 +46,33 @@ ourconverters.js → Organizes and exports conversion functions.
 
 package.json → Defines project name, version, dependencies, and scripts.
 
+ ## API Documentation
+ 1. Convert units
+ - Endpoint: **POST**/convert
+ -  Request
 
+ json
+
+{
+
+"from": "km",
+
+   "to": "mi",
+
+"value": 10
+
+}
+
+- Response
+
+  json
+
+  {
+
+   "result": 6.21
+
+  }
+  
 ## Installation 
 #### For end users 
 👉 [Click here to use the Unit Converter](https://your-deployed-link.com)
@@ -102,4 +128,5 @@ index.html and style.css
  6. Uche Emerald;
 
   - ReadMe file
+
 
