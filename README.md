@@ -63,6 +63,6 @@ Package.json.
 index.html
 
  
-6.Uche Emerald;
+ 6. Uche Emerald;
 
-ReadMe file
+ ReadMe file
