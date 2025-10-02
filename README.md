@@ -24,8 +24,8 @@ That’s it! Just click the link above and start converting.
 1. Clone the repository:
    ```bash
    git clone https://github.com/team-username/unit-converter.git
-
-
+2. open the folder.
+3. locate and open **index.html**
 
 
 
