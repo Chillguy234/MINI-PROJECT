@@ -1,35 +1,54 @@
-const valueInput = document.getElementById("valueToConvert");
-const conversionSelect = document.getElementById("conversion");
-const resultBox = document.getElementById("result");
-const convertBtn = document.getElementById("convertBtn");
-const resetBtn = document.getElementById("resetBtn");
+// index.js (Backend Entry Point)
+//uche this comment will help you 
 
-convertBtn.addEventListener("click", async () => {
-  const value = valueInput.value;
-  const conversionType = conversionSelect.value;
 
-  if (!value) {
-    resultBox.value = "Please enter a value.";
-    return;
+const express = require("express");
+const path = require("path");
+const cors = require("cors");
+const converters = require("./group6fomula.js"); // your conversion formulas
+
+const app = express();
+const PORT = 3000;
+
+// the will wake our CORS (so frontend can fetch)
+app.use(cors());
+
+// Serve static frontend files if you have any (index.html, etc.)
+//how far uche this one na the main thing oo
+app.use(express.static(path.join(__dirname, "frontend")));
+
+// API endpoint for conversion
+app.get("/convert", (req, res) => {
+  const { value, type } = req.query;
+
+  if (!value || !type) {
+    return res.status(400).json({ error: "Please provide value and type" });
   }
 
-  try {
-    const res = await fetch(
-      `http://localhost:3000/convert?value=${value}&type=${conversionType}`
-    );
-    const data = await res.json();
-
-    if (data.error) {
-      resultBox.value = data.error;
-    } else {
-      resultBox.value = `${data.input} → ${data.result}`;
-    }
-  } catch (err) {
-    resultBox.value = "Error connecting to backend.";
+  const numValue = parseFloat(value);
+  if (isNaN(numValue)) {
+    return res.status(400).json({ error: "Value must be a number" });
   }
+
+  const converterFn = converters[type];
+  if (!converterFn) {
+    return res.status(400).json({ error: "Invalid conversion type" });
+  }
+
+  const result = converterFn(numValue);
+  res.json({
+    input: numValue,
+    conversion: type,
+    result,
+  });
 });
 
-resetBtn.addEventListener("click", () => {
-  valueInput.value = "";
-  resultBox.value = "";
+// Default route
+app.get("/", (req, res) => {
+  res.send("Welcome! Example: /convert?value=100&type=kmToMiles");
+});
+
+// Start server
+app.listen(PORT, () => {
+  console.log(`✅ Server running at http://localhost:${PORT}`);
 });
